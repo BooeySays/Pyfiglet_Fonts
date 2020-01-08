@@ -1,28 +1,15 @@
 STARTDIR=$PWD
-
 FONTDIR=$STARTDIR/fonts
-
 FIGLETDIR="$(figlet -I 2)"
-count=0
+
 sudo clear;
 cd $FONTDIR;
+echo -e "Copying files"
 
-for fonts in *; do
-	fontflf[count]=$fonts
-	echo -e "   \033["$(echo $count | wc -L)"D$count) ${fontflf[count]}"
-	count=$[$count + 1]
-done
+sudo cp *.flf $FIGLETDIR
 
-read -p 'Choose font to install: ' FONTOPT
+echo -e "finished"
 
-USERSELECT="${fontflf[FONTOPT]}"
-
-if [ -d $USERSELECT ]; then
-	builtin cd $USERSELECT;
-	. install.sh;
-	builtin cd ..;
-fi
-
-cd $STARTDIR;
-unset STARTDIR FONTDIR FIGLETDIR FONTOPT
+builtin cd $STARTDIR
+unset STARTDIR FONTDIR FIGLETDIR
 
