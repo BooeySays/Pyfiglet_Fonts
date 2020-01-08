@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo -e "Installing all fonts"
+echo
+echo -e "[ Press any key to continue ]"
+read
+
