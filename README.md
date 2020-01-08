@@ -5,6 +5,10 @@ FLF figlet font files converted from the TLF files.
 
 I wasn't able to use the tlf files with pyfiglet, so I started converting a bunch of the TLF files, into FLFs. THEN!, because I have no life, I started messing around the the files and created a bunch of colored versions of the same files.
 
+**INSTALLATION:**
+
+Copy all the wanted font files to figlet's directory (by default: /usr/share/figlet/)
+
 **FILES CONVERTED:**
 
 smmono9.tlf -> smmono9.flf
