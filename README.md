@@ -18,3 +18,7 @@ smmono9.tlf -> smmono9.flf
                 - blue.smmono9.flf
                 - magenta.smmono9.flf
                 - cyan.smmono9.flf
+
+Samples:
+
+https://imgur.com/a/rQfNRjv
