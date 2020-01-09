@@ -21,4 +21,4 @@ smmono9.tlf -> smmono9.flf
 
 Samples:
 
-<img src="https://imgur.com/a/rQfNRjv" />
+<img src="https://i.imgur.com/fxoZP9P.png" />
